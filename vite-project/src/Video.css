@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 7%;
+}
+.coverImage {
+  width: 20vw;
+  border-radius: 5%;
+}
+.videoInfo {
+  display: flex;
+  gap: 10px;
+}
+.iconDiv {
+  height: 60px;
+}
+.iconImage {
+  padding-top: 5px;
+  width: 30px;
+  border-radius: 50%;
+}
+.text {
+  padding-top: 5px;
+}
+.extra {
+  color: grey;
+  font-size: 1em;
+}
+.videoTitle {
+    font-size: 1.2em;
+}
